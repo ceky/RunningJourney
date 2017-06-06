@@ -1,10 +1,13 @@
 <template>
     <div class="">
-        Races go here
+        Personal Best go here
     </div>
 </template>
 
 <script>
+    export default {
+
+    }
 </script>
 
 <style scoped>

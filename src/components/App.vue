@@ -3,7 +3,7 @@
         <app-header></app-header>
         <!-- <test msg="Hello"></test>
         <users></users> -->
-        <main-content></main-content>
+        <router-view></router-view>
         <app-footer></app-footer>
     </div>
 
@@ -13,13 +13,13 @@
     import Test from './test'
     import Users from './users'
     import AppHeader from './AppHeader'
-    import MainContent from './MainContent'
+    import Albums from './Albums'
     import AppFooter from './AppFooter'
 
     export default {
         name: 'app',
         components: {
-            Test, Users, AppHeader, MainContent, AppFooter
+            Test, Users, AppHeader, Albums, AppFooter
         }
     }
 </script>

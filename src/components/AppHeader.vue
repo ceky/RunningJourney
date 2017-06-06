@@ -3,17 +3,17 @@
         <div class="header__title">
             Running Adventures
         </div>
-        <div class="header__menu">
-            <div class="header__menu-item">
-                Albums
-            </div>
-            <div class="header__menu-item">
-                Personal Best
-            </div>
-            <div class="header__menu-item">
-                What's Next
-            </div>
-        </div>
+        <ul class="header__menu">
+            <li class="header__menu-item">
+                <router-link to="/">Albums</router-link>
+            </li>
+            <li class="header__menu-item">
+                <router-link to="/best">Personal Best</router-link>
+            </li>
+            <li class="header__menu-item">
+                <router-link to="/next">What's Next</router-link>
+            </li>
+        </ul>
     </header>
 </template>
 
