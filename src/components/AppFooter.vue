@@ -1,9 +1,12 @@
 <template>
-    <div>2017 - Built with Vue.js</div>
+    <div class="footer__container">Ceky - 2017</div>
 </template>
 
 <script>
 </script>
 
 <style scoped>
+.footer__container {
+    text-align: center;
+}
 </style>

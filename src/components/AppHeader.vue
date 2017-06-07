@@ -1,7 +1,7 @@
 <template>
-    <header>
+    <header class="header__container">
         <div class="header__title">
-            Running Adventures
+            <router-link to="/">Running Adventures</router-link>            
         </div>
         <ul class="header__menu">
             <li class="header__menu-item">
@@ -21,4 +21,18 @@
 </script>
 
 <style scoped>
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 65rem;
+    margin: 0 auto;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 16rem;
+}
 </style>

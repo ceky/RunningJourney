@@ -1,24 +1,206 @@
 {
     "past": [
         {
-            "name": "Apuseni Half Marathon",
+            "name": "Cluj International Marathon - Relay Race",
+            "album": "2015 - Arobs stafeta",
+            "year": "2015",
+            "month": "April",
+            "terrain": "road",
+            "distance": "10km",
+            "cover": "",
+            "images": ["2015 - Arobs stafeta 1.jpg", "2015 - Arobs stafeta 2.jpg", "2015 - Arobs stafeta 3.jpg"],
+            "time": "54m 13s"
+        },
+        {
+            "name": "Ascotid Mures - Cross",
+            "album": "2015 - Ascotid Cros",
+            "year": "2015",
+            "month": "May",
+            "terrain": "trail",
+            "distance": "8km",
+            "images": ["2015 - Ascotid 1.jpg", "2015 - Ascotid 2.jpg"],
+            "cover": "",
+            "time": "52m 37s"
+        },
+        {
+            "name": "Crosul de noapte primavara",
+            "year": "2015",
+            "month": "May",
+            "terrain": "road",
+            "distance": "10km",
+            "images": [],
+            "cover": "",
+            "time": ""
+        },
+        {
+            "name": "Training",
+            "year": "2015",
+            "month": "October",
+            "terrain": "trail",
+            "distance": "",
+            "images": [],
+            "cover": "",
+            "time": ""
+        },
+        {
+            "name": "Faget Tour - Cross",
+            "year": "2015",
+            "month": "October",
+            "terrain": "trail",
+            "distance": "8km",
+            "images": [],
+            "cover": "",
+            "time": ""
+        },
+        {
+            "name": "Cluj International Marathon - Half-Marahton",
+            "year": "2016",
+            "month": "April",
+            "terrain": "road",
+            "distance": "21km",
+            "images": [],
+            "cover": "",
+            "time": "2h 02m 18s"
+        },
+        {
+            "name": "Crosul de noapte primavara",
+            "year": "2016",
+            "month": "April",
+            "terrain": "road",
+            "distance": "10km",
+            "images": [],
+            "cover": "",
+            "time": ""
+        },
+        {
+            "name": "Apuseni - Half-Marahton",
             "year": "2016",
             "month": "May",
             "terrain": "trail",
             "distance": "21km",
             "images": [],
             "cover": "",
-            "time": "3h 09m"
+            "time": "3h 09m 15s"
         },
         {
-            "name": "Apuseni Half Marathon",
+            "name": "Ascotid Mures - Cross",
+            "year": "2016",
+            "month": "September",
+            "terrain": "trail",
+            "distance": "8km",
+            "images": [],
+            "cover": "",
+            "time": ""
+        },
+        {
+            "name": "Crosul de noapte toamna",
+            "year": "2016",
+            "month": "November",
+            "terrain": "road",
+            "distance": "10km",
+            "images": [],
+            "cover": "",
+            "time": ""
+        },
+        {
+            "name": "Faget Winter Race - Cross",
+            "year": "2017",
+            "month": "January",
+            "terrain": "trail",
+            "distance": "7km",
+            "images": [],
+            "cover": "",
+            "time": "46m 30s"
+        },
+        {
+            "name": "Faget Winter Tour - Cross",
+            "year": "2017",
+            "month": "January",
+            "terrain": "trail",
+            "distance": "14km",
+            "images": [],
+            "cover": "",
+            "time": "1h 32m 50s"
+        },
+        {
+            "name": "Training",
+            "year": "2017",
+            "month": "Winter",
+            "terrain": "road",
+            "distance": "",
+            "images": [],
+            "cover": "",
+            "time": ""
+        },
+        {
+            "name": "Official Training Cluj Half Marathon",
+            "year": "2017",
+            "month": "March",
+            "terrain": "road",
+            "distance": "21km",
+            "images": [],
+            "cover": "",
+            "time": "1h 58m 33s"
+        },
+        {
+            "name": "Rome Marathon",
+            "year": "2017",
+            "month": "April",
+            "terrain": "road",
+            "distance": "42km",
+            "images": [],
+            "cover": "",
+            "time": "4h 33m 23s"
+        },
+        {
+            "name": "Cluj Wizz Half Marathon",
+            "year": "2017",
+            "month": "April",
+            "terrain": "road",
+            "distance": "21km",
+            "images": [],
+            "cover": "",
+            "time": "1h 55m 02s"
+        },
+        {
+            "name": "Mures Half Marathon",
+            "year": "2017",
+            "month": "May",
+            "terrain": "road",
+            "distance": "21km",
+            "images": [],
+            "cover": "",
+            "time": "3h 00m 45s"
+        },
+        {
+            "name": "Crosul de noapte primavara",
+            "year": "2017",
+            "month": "May",
+            "terrain": "road",
+            "distance": "10km",
+            "images": [],
+            "cover": "",
+            "time": "51m 52s"
+        },
+        {
+            "name": "Ethno Run Cluj - Cross",
+            "year": "2017",
+            "month": "May",
+            "terrain": "trail",
+            "distance": "8km",
+            "images": [],
+            "cover": "",
+            "time": "41m 03s"
+        },
+        {
+            "name": "Apuseni - Half-Marathon",
             "year": "2017",
             "month": "May",
             "terrain": "trail",
             "distance": "21km",
-            "cover": "",
             "images": [],
-            "time": "2h 42m"
+            "cover": "",
+            "time": "2h 41m 19s"
         }
     ]
 }
