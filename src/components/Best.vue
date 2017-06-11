@@ -1,41 +1,47 @@
 <template>
     <div class="best__container">
         <div class="best__title">
-            These are my best times:
+            My best times:
         </div>
 
         <ul class="best__items-container">
             <li class="best__item">
-                <div class="best__distance">
-                    10km
-                </div>
-                <div class="best__time">
-                    51m 52s
-                </div>
-                <div class="best__competition">
-                    Crosul de noapte 2017
+                <div class="best__item-container">
+                    <div class="best__distance">
+                        10km
+                    </div>
+                    <div class="best__time">
+                        51m 52s
+                    </div>
+                    <div class="best__competition">
+                        Crosul de noapte 2017
+                    </div>
                 </div>
             </li>
             <li class="best__item best__item--second">
-                <div class="best__distance">
-                    21km
-                </div>
-                <div class="best__time">
-                    1h 55m 02s
-                </div>
-                <div class="best__competition">
-                    Cluj Half Marathon 2017
+                <div class="best__item-container">
+                    <div class="best__distance">
+                        21km
+                    </div>
+                    <div class="best__time">
+                        1h 55m 02s
+                    </div>
+                    <div class="best__competition">
+                        Cluj Half Marathon 2017
+                    </div>
                 </div>
             </li>
             <li class="best__item">
-                <div class="best__distance">
-                    42km
-                </div>
-                <div class="best__time">
-                    4h 33m 23s
-                </div>
-                <div class="best__competition">
-                    Rome Marathon 2017
+                <div class="best__item-container">
+                    <div class="best__distance">
+                        42km
+                    </div>
+                    <div class="best__time">
+                        4h 33m 23s
+                    </div>
+                    <div class="best__competition">
+                        Rome Marathon 2017
+                    </div>
                 </div>
             </li>
         </ul>
@@ -60,34 +66,50 @@
 }
 
 .best__item {
+    font-size: 18px;
     transform: rotate(-1deg);
-    box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
     margin-bottom: 3rem;
-    background-color: coral;
-    padding: 2rem;
+}
+
+.best__item-container {
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.best__item:hover
-{
-    transition: all 0.3s ease;
+.best__item::before {
+    content: "";
+    background-color: dimgrey;
+    height: 100%;
+    width: 94%;
+    position: absolute;
+    left: 3%;
+    z-index: -1;
     transform: rotate(1deg);
 }
 
+.best__item::after {
+    content: "";
+    background-color: coral;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
 .best__distance {
-    font-size: 32px;
 }
 
 .best__time {
     position: relative;
-    font-size: 40px;
     animation: pulse 2s infinite;
+    font-weight: bold;
 }
 
 .best__competition {
-    font-size: 20px;
 }
 
 @keyframes pulse {
