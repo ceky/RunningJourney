@@ -1,7 +1,7 @@
 <template>
     <div class="best__container">
         <div class="best__title">
-            My best times:
+            My best times
         </div>
 
         <ul class="best__items-container">
