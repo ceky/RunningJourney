@@ -1,7 +1,7 @@
 <template>
     <header class="header__container">
         <div class="header__title">
-            <router-link to="/">Running Adventures</router-link>            
+            <router-link to="/">RUNNING ADVENTURES</router-link>
         </div>
         <ul class="header__menu">
             <li class="header__menu-item">
@@ -27,12 +27,38 @@
     align-items: center;
     max-width: 65rem;
     margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 15px;
 }
 
 .header__menu {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     width: 16rem;
+    padding: 0;
+}
+
+.header__menu-item {
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.header__menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header__title {
+    font-size: 32px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 630px) {
+    .header__title {
+        width: 100%;
+    }
+    .header__menu {
+        width: 100%;
+    }
 }
 </style>

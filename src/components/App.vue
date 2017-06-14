@@ -25,7 +25,7 @@
 <style>
 body {
     margin: 0;
-    font-family: 'Hind Vadodara', sans-serif;
+    font-family: 'Kalam', cursive;
 }
 
 a {
