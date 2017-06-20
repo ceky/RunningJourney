@@ -1,7 +1,7 @@
 <template>
     <header class="header__container">
         <div class="header__title">
-            <router-link to="/">RUNNING ADVENTURES</router-link>
+            <router-link to="/" class="header__logo"><span style="font-size: 50px;">RUNNING</span> <span style="top: -18px; position: relative; color: mediumvioletred">ADVENTURES</span></router-link>
         </div>
         <ul class="header__menu">
             <li class="header__menu-item">
@@ -21,6 +21,15 @@
 </script>
 
 <style scoped>
+ul .router-link-exact-active {
+    color: mediumvioletred;
+}
+
+.header__logo {
+    width: 164px;
+    display: inline-block;
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -28,15 +37,15 @@
     max-width: 65rem;
     margin: 0 auto;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .header__menu {
     display: flex;
     list-style: none;
     justify-content: center;
-    width: 16rem;
     padding: 0;
+    margin: 0;
 }
 
 .header__menu-item {
@@ -45,17 +54,18 @@
 }
 
 .header__menu-item:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .header__title {
-    font-size: 32px;
-    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 34px;
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 595px) {
     .header__title {
         width: 100%;
+        text-align: center;
     }
     .header__menu {
         width: 100%;

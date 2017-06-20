@@ -1,13 +1,14 @@
 {
     "past": [
         {
-            "name": "Cluj International Marathon - Relay Race",
+            "name": "Cluj International - Relay Race",
             "album": "2015 - Arobs stafeta",
             "year": "2015",
-            "month": "April",
+            "month": "Apr",
             "terrain": "road",
             "distance": "10km",
-            "cover": "",
+            "cover": "cover.jpg",
+            "folder": "2015 - Arobs stafeta",
             "images": ["2015 - Arobs stafeta 1.jpg", "2015 - Arobs stafeta 2.jpg", "2015 - Arobs stafeta 3.jpg"],
             "time": "54m 13s"
         },
@@ -18,8 +19,9 @@
             "month": "May",
             "terrain": "trail",
             "distance": "8km",
+            "cover": "cover.jpg",
+            "folder": "2015 - Ascotid Cros",
             "images": ["2015 - Ascotid 1.jpg", "2015 - Ascotid 2.jpg"],
-            "cover": "",
             "time": "52m 37s"
         },
         {
@@ -28,48 +30,53 @@
             "month": "May",
             "terrain": "road",
             "distance": "10km",
+            "cover": "2015 - Crosul de noapte - primavara 1.jpg",
+            "folder": "2015 - Crosul de noapte - spring",
             "images": [],
-            "cover": "",
             "time": ""
         },
         {
             "name": "Training",
             "year": "2015",
-            "month": "October",
+            "month": "Oct",
             "terrain": "trail",
             "distance": "",
+            "cover": "2015 - antrenament 3.jpg",
+            "folder": "2015 - Antrenament",
             "images": [],
-            "cover": "",
             "time": ""
         },
         {
             "name": "Faget Tour - Cross",
             "year": "2015",
-            "month": "October",
+            "month": "Oct",
             "terrain": "trail",
             "distance": "8km",
+            "cover": "2015 - Faget cros 2.jpg",
+            "folder": "2015 - Faget Cros",
             "images": [],
-            "cover": "",
             "time": ""
         },
         {
-            "name": "Cluj International Marathon - Half-Marahton",
+            "name": "Cluj International - Half-Marahton",
             "year": "2016",
-            "month": "April",
+            "month": "Apr",
             "terrain": "road",
             "distance": "21km",
+            "cover": "2016 - Arobs semi tel 13.jpg",
+            "folder": "2016 - Arobs Semi",
             "images": [],
-            "cover": "",
             "time": "2h 02m 18s"
         },
         {
             "name": "Crosul de noapte primavara",
             "year": "2016",
-            "month": "April",
+            "month": "Apr",
             "terrain": "road",
             "distance": "10km",
+            "cover": "2016 - Crosul de noapte - primavara 2.jpg",
+            "folder": "2016 - Crosul de noapte - spring",
             "images": [],
-            "cover": "",
             "time": ""
         },
         {
@@ -78,48 +85,53 @@
             "month": "May",
             "terrain": "trail",
             "distance": "21km",
+            "cover": "2016 - Apuseni semi 19.jpg",
+            "folder": "2016 - Apuseni Semi",
             "images": [],
-            "cover": "",
             "time": "3h 09m 15s"
         },
         {
             "name": "Ascotid Mures - Cross",
             "year": "2016",
-            "month": "September",
+            "month": "Sep",
             "terrain": "trail",
             "distance": "8km",
+            "cover": "2016 - Ascotid 7.jpg",
+            "folder": "2016 - Ascotid Cros",
             "images": [],
-            "cover": "",
             "time": ""
         },
         {
             "name": "Crosul de noapte toamna",
             "year": "2016",
-            "month": "November",
+            "month": "Nov",
             "terrain": "road",
             "distance": "10km",
+            "cover": "2016 - Crosul de noapte - toamna 2.jpg",
+            "folder": "2016 - Crosul de noapte - autumn",
             "images": [],
-            "cover": "",
             "time": ""
         },
         {
             "name": "Faget Winter Race - Cross",
             "year": "2017",
-            "month": "January",
+            "month": "Jan",
             "terrain": "trail",
             "distance": "7km",
+            "cover": "2017- Faget Winter Race - 7km 1.jpg",
+            "folder": "2017 - Faget Winter Race Cros",
             "images": [],
-            "cover": "",
             "time": "46m 30s"
         },
         {
             "name": "Faget Winter Tour - Cross",
             "year": "2017",
-            "month": "January",
+            "month": "Jan",
             "terrain": "trail",
             "distance": "14km",
+            "cover": "2017 - Faget Winter Tour - 14km 4.jpg",
+            "folder": "2017 - Faget Winter Tour Cros",
             "images": [],
-            "cover": "",
             "time": "1h 32m 50s"
         },
         {
@@ -128,38 +140,42 @@
             "month": "Winter",
             "terrain": "road",
             "distance": "",
+            "cover": "2017 - Antrenament maraton - martie 35km 6.jpg",
+            "folder": "2017 - Antrenament",
             "images": [],
-            "cover": "",
             "time": ""
         },
         {
             "name": "Official Training Cluj Half Marathon",
             "year": "2017",
-            "month": "March",
+            "month": "Mar",
             "terrain": "road",
             "distance": "21km",
+            "cover": "2017 - antrenament oficial wizz - 20km.jpg",
+            "folder": "2017 - Antrenament oficial wizz semi",
             "images": [],
-            "cover": "",
             "time": "1h 58m 33s"
         },
         {
             "name": "Rome Marathon",
             "year": "2017",
-            "month": "April",
+            "month": "Apr",
             "terrain": "road",
             "distance": "42km",
+            "cover": "2017 - Maraton Roma 13.jpg",
+            "folder": "2017 - Rome Marathon",
             "images": [],
-            "cover": "",
             "time": "4h 33m 23s"
         },
         {
             "name": "Cluj Wizz Half Marathon",
             "year": "2017",
-            "month": "April",
+            "month": "Apr",
             "terrain": "road",
             "distance": "21km",
+            "cover": "2017 - Wizz semi 8.jpg",
+            "folder": "2017 - Wizz Cluj Semi",
             "images": [],
-            "cover": "",
             "time": "1h 55m 02s"
         },
         {
@@ -168,8 +184,9 @@
             "month": "May",
             "terrain": "road",
             "distance": "21km",
+            "cover": "2017 - mures half marathon 4.jpg",
+            "folder": "2017 - Mures Semi",
             "images": [],
-            "cover": "",
             "time": "3h 00m 45s"
         },
         {
@@ -178,8 +195,9 @@
             "month": "May",
             "terrain": "road",
             "distance": "10km",
+            "cover": "2017 - Crosul de noapte mai 3.jpg",
+            "folder": "2017 - Crosul de noapte - spring",
             "images": [],
-            "cover": "",
             "time": "51m 52s"
         },
         {
@@ -188,8 +206,9 @@
             "month": "May",
             "terrain": "trail",
             "distance": "8km",
+            "cover": "2017 - Ethno run 10.jpg",
+            "folder": "2017 - Ethno Run Cros",
             "images": [],
-            "cover": "",
             "time": "41m 03s"
         },
         {
@@ -198,8 +217,9 @@
             "month": "May",
             "terrain": "trail",
             "distance": "21km",
+            "cover": "2017 - Apuseni semi 4.jpg",
+            "folder": "2017 - Apuseni Semi",
             "images": [],
-            "cover": "",
             "time": "2h 41m 19s"
         }
     ]

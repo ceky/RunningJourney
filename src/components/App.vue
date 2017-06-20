@@ -38,8 +38,19 @@ a {
     min-height: 100vh;
 }
 
+.page__title {
+    font-size: 28px;
+    text-shadow: azure 2px 1px;
+}
+
 .page-container {
     margin: 0 auto;
     max-width: 65em;
+}
+
+@media only screen and (max-width: 595px) {
+    .page__title {
+        margin-left: 20px;
+    }
 }
 </style>

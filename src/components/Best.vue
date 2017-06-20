@@ -1,6 +1,6 @@
 <template>
     <div class="best__container">
-        <div class="best__title">
+        <div class="page__title">
             My best times
         </div>
 
@@ -55,11 +55,6 @@
 </script>
 
 <style scoped>
-.best__title {
-    font-size: 28px;
-    text-shadow: azure 2px 1px;
-}
-
 .best__items-container {
     list-style: none;
     padding: 0;
