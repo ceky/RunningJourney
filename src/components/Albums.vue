@@ -1,8 +1,5 @@
 <template>
     <div class="albums__container">
-        <div class="page__title">
-            Competitions
-        </div>
         <ul class="albums__items-container">
             <li v-for="item in albums" class="albums__item">
                 <img class="album__cover" v-bind:src="'./static/albums/' + item.folder + '/' + item.cover" />
@@ -50,10 +47,17 @@ li nth-child(odd) {
 
 .albums__item {
     position: relative;
+    cursor: pointer;
     border: 1px solid rgba(45, 42, 42, 0.3);
     padding: 10px;
+    margin: 10px;
     border-radius: 3px;
     box-shadow: 0.5rem 0.7rem 2rem rgba(0, 0, 0, 0.7);
+}
+
+.albums__item:hover {
+    transform: scale(1.1);
+    transition: all ease 0.3s;
 }
 
 .album__cover {

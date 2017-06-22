@@ -1,9 +1,5 @@
 <template>
     <div class="next__container">
-        <div class="page__title">
-            Upcoming competitions
-        </div>
-
         <ul class="next__items-container">
             <li class="next__item">
                 <div class="next__date">
