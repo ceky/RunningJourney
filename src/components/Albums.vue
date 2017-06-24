@@ -1,7 +1,14 @@
 <template>
     <div class="albums__container">
+        <div class="filter">
+            <a href="#" class="filter__btn" v-on:click="onClickFilter">Filter</a>
+            <div class="filter__open" v-if="isFilterOpen">
+                <button class="filter__close-btn" v-on:click="onClickClose"></button>
+                <input type="text" placeholder="Search..." class="filter__search" v-model="searchText">
+            </div>
+        </div>
         <ul class="albums__items-container">
-            <li v-for="item in albums" class="albums__item">
+            <li v-for="item in itemsLessThanTen" class="albums__item">
                 <img class="album__cover" v-bind:src="'./static/albums/' + item.folder + '/' + item.cover" />
                 <div class="album__data-container">
                     <div class="album__name">
@@ -21,26 +28,123 @@
         created: function() {
             this.$http.get('./static/albums.json')
                 .then((response) => {
-                    this.albums = response.data.past;
+                    this.albums = response.data.past.reverse();
                 })
         },
         data () {
             return {
-                albums: []
+                albums: [],
+                searchText: '',
+                isFilterOpen: false
+            }
+        },
+        methods: {
+            onClickFilter: function (event) {
+                this.isFilterOpen = !this.isFilterOpen;
+            },
+            onClickClose: function (event) {
+                this.isFilterOpen = false;
+            }
+        },
+        computed: {
+            itemsLessThanTen: function() {
+                return this.albums.filter((item) => {
+                    return item.name.toLowerCase().indexOf(this.searchText.toLowerCase()) > -1;
+                })
             }
         }
     }
 </script>
 
 <style scoped>
-li nth-child(odd) {
-    top: 178px;
+.albums__container {
+    padding: 10px;
+}
+
+.filter {
+    position: relative;
+    left: 10px
+}
+
+.filter__btn {
+    display: block;
+    width: calc(100% - 20px);
+    padding-top: 4px;
+    color: rgb(85, 26, 139);
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    box-shadow: 0 1px 1px;
+    border-radius: 4px;
+    border: 1px solid rgb(85, 26, 139);
+    background-color: rgba(85, 26, 139, 0.2);
+}
+
+.filter__close-btn {
+    position: absolute;
+    top: 0;
+    right: 18px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid mediumvioletred;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    transform: scale(0.6);
+    outline: none;
+}
+
+.filter__close-btn::before {
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -2px;
+    width: 24px;
+    height: 2px;
+    background-color: mediumvioletred;
+    content: "";
+    position: absolute;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.filter__close-btn::after {
+    width: 24px;
+    height: 2px;
+    background-color: mediumvioletred;
+    content: "";
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -2px;
+    position: absolute;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.filter__search {
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 26, 139);
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(85, 26, 139);
 }
 
 .albums__items-container {
     list-style: none;
     display: grid;
-    padding: 10px;
+    padding: 0px;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
 }
