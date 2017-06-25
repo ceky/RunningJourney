@@ -1,8 +1,16 @@
 <template>
     <div class="albums__container">
-        <albums-filter v-on:searchTextChanged="onSearchTextChanged"></albums-filter>
+        <albums-filter
+            v-on:searchTextChanged="onSearchTextChanged"
+            v-on:distanceFilterChanged="onDistanceFilterChanged"
+            v-on:yearFilterChanged="onYearFilterChanged"
+            v-on:terrainFilterChanged="onTerrainFilterChanged">
+        </albums-filter>
+        <div class="albums__total">
+            Total: {{filteredAlbumItems.length}}
+        </div>
         <ul class="albums__items-container">
-            <li v-for="item in itemsLessThanTen" class="albums__item">
+            <li v-for="item in filteredAlbumItems" class="albums__item">
                 <img class="album__cover" v-bind:src="'./static/albums/' + item.folder + '/' + item.cover" />
                 <div class="album__data-container">
                     <div class="album__name">
@@ -33,18 +41,33 @@
         data () {
             return {
                 albums: [],
-                searchText: ''
+                searchText: '',
+                distanceFilter: 'all',
+                yearFilter: 'all',
+                terrainFilter: 'all'
             }
         },
         methods: {
             onSearchTextChanged: function(value) {
                 this.searchText = value;
+            },
+            onDistanceFilterChanged: function(value) {
+                this.distanceFilter = value;
+            },
+            onYearFilterChanged: function(value) {
+                this.yearFilter = value;
+            },
+            onTerrainFilterChanged: function(value) {
+                this.terrainFilter = value;
             }
         },
         computed: {
-            itemsLessThanTen: function() {
+            filteredAlbumItems: function() {
                 return this.albums.filter((item) => {
-                    return item.name.toLowerCase().indexOf(this.searchText.toLowerCase()) > -1;
+                    return ((item.name.toLowerCase().indexOf(this.searchText.toLowerCase()) > -1) &&
+                            (item.distance === this.distanceFilter || this.distanceFilter === 'all') &&
+                            (item.year === this.yearFilter || this.yearFilter === 'all') &&
+                            (item.terrain === this.terrainFilter || this.terrainFilter === 'all'))
                 })
             }
         }
@@ -56,9 +79,16 @@
     padding: 10px;
 }
 
+.albums__total {
+    font-family: 'Londrina Solid', cursive;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
 .albums__items-container {
     list-style: none;
     display: grid;
+    margin-top: 0px;
     padding: 0px;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
@@ -82,8 +112,8 @@
 .album__cover {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
     width: 100%;
-    -webkit-filter: sepia(0.5) saturate(1.5);
-    filter: sepia(0.5) saturate(1.5);
+    -webkit-filter: sepia(0.6) saturate(1.5);
+    filter: sepia(0.6) saturate(1.5);
 }
 
 .album__data-container {
