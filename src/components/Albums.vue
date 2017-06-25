@@ -1,12 +1,6 @@
 <template>
     <div class="albums__container">
-        <div class="filter">
-            <a href="#" class="filter__btn" v-on:click="onClickFilter">Filter</a>
-            <div class="filter__open" v-if="isFilterOpen">
-                <button class="filter__close-btn" v-on:click="onClickClose"></button>
-                <input type="text" placeholder="Search..." class="filter__search" v-model="searchText">
-            </div>
-        </div>
+        <albums-filter v-on:searchTextChanged="onSearchTextChanged"></albums-filter>
         <ul class="albums__items-container">
             <li v-for="item in itemsLessThanTen" class="albums__item">
                 <img class="album__cover" v-bind:src="'./static/albums/' + item.folder + '/' + item.cover" />
@@ -24,7 +18,12 @@
 </template>
 
 <script>
+    import AlbumsFilter from './AlbumsFilter';
+
     export default {
+        components: {
+            AlbumsFilter
+        },
         created: function() {
             this.$http.get('./static/albums.json')
                 .then((response) => {
@@ -34,16 +33,12 @@
         data () {
             return {
                 albums: [],
-                searchText: '',
-                isFilterOpen: false
+                searchText: ''
             }
         },
         methods: {
-            onClickFilter: function (event) {
-                this.isFilterOpen = !this.isFilterOpen;
-            },
-            onClickClose: function (event) {
-                this.isFilterOpen = false;
+            onSearchTextChanged: function(value) {
+                this.searchText = value;
             }
         },
         computed: {
@@ -59,86 +54,6 @@
 <style scoped>
 .albums__container {
     padding: 10px;
-}
-
-.filter {
-    position: relative;
-    left: 10px
-}
-
-.filter__btn {
-    display: block;
-    width: calc(100% - 20px);
-    padding-top: 4px;
-    color: rgb(85, 26, 139);
-    text-align: center;
-    font-size: 20px;
-    line-height: 32px;
-    box-shadow: 0 1px 1px;
-    border-radius: 4px;
-    border: 1px solid rgb(85, 26, 139);
-    background-color: rgba(85, 26, 139, 0.2);
-}
-
-.filter__close-btn {
-    position: absolute;
-    top: 0;
-    right: 18px;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid mediumvioletred;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    cursor: pointer;
-    display: inline-block;
-    transform: scale(0.6);
-    outline: none;
-}
-
-.filter__close-btn::before {
-    left: 50%;
-    top: 50%;
-    margin-left: -12px;
-    margin-top: -2px;
-    width: 24px;
-    height: 2px;
-    background-color: mediumvioletred;
-    content: "";
-    position: absolute;
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.filter__close-btn::after {
-    width: 24px;
-    height: 2px;
-    background-color: mediumvioletred;
-    content: "";
-    left: 50%;
-    top: 50%;
-    margin-left: -12px;
-    margin-top: -2px;
-    position: absolute;
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-.filter__search {
-    width: calc(100% - 20px);
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(85, 26, 139);
-    background: none;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid rgb(85, 26, 139);
 }
 
 .albums__items-container {
@@ -182,8 +97,8 @@
     font-family: 'Londrina Solid', cursive;
     font-size: 20px;
     position: absolute;
-    bottom: 18px;
-    padding: 10px;
+    bottom: 9px;
+    padding: 1px 7px;
     background-color: #e74c3c;
     color: white;
     white-space: nowrap;
@@ -202,8 +117,9 @@
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 57px;
-    height: 41px;
+    line-height: 18px;
+    width: 50px;
+    height: 50px;
     padding: 7px 0px;
 }
 </style>
