@@ -10,7 +10,7 @@
             Total: {{filteredAlbumItems.length}}
         </div>
         <ul class="albums__items-container">
-            <li v-for="item in filteredAlbumItems" class="albums__item">
+            <li v-for="item in filteredAlbumItems" class="albums__item" v-on:click="onClickAlbum(item.images)">
                 <img class="album__cover" v-bind:src="'./static/albums/' + item.folder + '/' + item.cover" />
                 <div class="album__data-container">
                     <div class="album__name">
@@ -59,6 +59,21 @@
             },
             onTerrainFilterChanged: function(value) {
                 this.terrainFilter = value;
+            },
+            onClickAlbum: function(images) {
+                let items = [];
+
+                for (var image of images) {
+                    items.push({src: image});
+                }
+
+                $('.albums__items-container').magnificPopup({
+                    items: items,
+                    gallery: {
+                        enabled: true
+                    },
+                    type:'image'
+                });
             }
         },
         computed: {

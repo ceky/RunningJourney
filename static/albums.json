@@ -9,7 +9,7 @@
             "distance": "10km",
             "cover": "cover.jpg",
             "folder": "2015 - Arobs stafeta",
-            "images": ["2015 - Arobs stafeta 1.jpg", "2015 - Arobs stafeta 2.jpg", "2015 - Arobs stafeta 3.jpg"],
+            "images": ["https://c1.staticflickr.com/9/8128/29668438746_4f52e91efe_b.jpg", "https://c1.staticflickr.com/9/8178/29668438586_c68624f91d_b.jpg", "https://c1.staticflickr.com/9/8672/29413037890_ab7ed55278_b.jpg"],
             "time": "54m 13s"
         },
         {
@@ -21,7 +21,7 @@
             "distance": "8km",
             "cover": "cover.jpg",
             "folder": "2015 - Ascotid Cros",
-            "images": ["2015 - Ascotid 1.jpg", "2015 - Ascotid 2.jpg"],
+            "images": ["https://c1.staticflickr.com/5/4306/35859689942_00ce849405_b.jpg", "https://c1.staticflickr.com/5/4291/35191201144_e6cb513ab4_b.jpg"],
             "time": "52m 37s"
         },
         {
@@ -32,7 +32,8 @@
             "distance": "10km",
             "cover": "cover.jpg",
             "folder": "2015 - Crosul de noapte - spring",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4300/35859689032_7d09fae33d_b.jpg", "https://c1.staticflickr.com/5/4298/35859688682_af6eb20927_b.jpg", "https://c1.staticflickr.com/5/4314/35859945092_52aa0886aa_b.jpg",
+                "https://c1.staticflickr.com/5/4318/35191419044_cbc206e4c2_b.jpg"],
             "time": ""
         },
         {
@@ -43,7 +44,8 @@
             "distance": "",
             "cover": "cover.jpg",
             "folder": "2015 - Antrenament",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4312/35641551500_7a1a9a8bb0_b.jpg", "https://c1.staticflickr.com/5/4317/35191427384_06f99b6ddf_b.jpg", "https://c1.staticflickr.com/5/4298/35641557550_147826d358_b.jpg",
+                "https://c1.staticflickr.com/5/4321/35191434134_02a8e59136_b.jpg"],
             "time": ""
         },
         {
@@ -54,7 +56,8 @@
             "distance": "8km",
             "cover": "cover.jpg",
             "folder": "2015 - Faget Cros",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4296/35859941602_94caff83fc_b.jpg", "https://c1.staticflickr.com/5/4309/35191414894_f781f254a1_b.jpg", "https://c1.staticflickr.com/5/4320/35859937002_6f7fe1fef2_b.jpg",
+                "https://c1.staticflickr.com/5/4293/35859932192_7f0e1e0f12_b.jpg", "https://c1.staticflickr.com/5/4294/35191405084_05f6f4ed5b_b.jpg"],
             "time": ""
         },
         {
@@ -65,18 +68,25 @@
             "distance": "21km",
             "cover": "cover.jpg",
             "folder": "2016 - Arobs Semi",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4302/35220692283_c2f6234c7d_b.jpg", "https://c1.staticflickr.com/5/4315/35989229056_697b142d19_b.jpg", "https://c1.staticflickr.com/5/4330/35859682782_f1488ba1f4_b.jpg",
+                "https://c1.staticflickr.com/5/4322/35191193334_4840e6064b_b.jpg", "https://c1.staticflickr.com/5/4298/35859680422_e6ca104068_b.jpg", "https://c1.staticflickr.com/5/4297/35191196504_422a3e04f5_b.jpg",
+                "https://c1.staticflickr.com/5/4312/35191196184_227e3a393f_b.jpg", "https://c1.staticflickr.com/5/4310/35191195974_2011f9a1c9_b.jpg", "https://c1.staticflickr.com/5/4316/35191195584_9cd9ee9fcf_b.jpg",
+                "https://c1.staticflickr.com/5/4319/35191195274_57e3391800_b.jpg", "https://c1.staticflickr.com/5/4297/35191194984_a78987f7f7_b.jpg", "https://c1.staticflickr.com/5/4306/35191190974_ceb705a7a2_b.jpg",
+                "https://c1.staticflickr.com/5/4300/35220634393_72f0077219_b.jpg", "https://c1.staticflickr.com/5/4321/35641310440_ed67d0845d_b.jpg", "https://c1.staticflickr.com/5/4322/35989261126_491e114730_b.jpg",
+                "https://c1.staticflickr.com/5/4313/35989220106_22b8eef406_b.jpg", "https://c1.staticflickr.com/5/4321/35641479710_d995ba1a4f_b.jpg", "https://c1.staticflickr.com/5/4305/35989249106_8a38994dab_b.jpg",
+                "https://c1.staticflickr.com/5/4313/35641474340_a2d2dcbfd2_b.jpg", "https://c1.staticflickr.com/5/4328/35989237916_bca3595ef0_b.jpg", "https://c1.staticflickr.com/5/4306/35220649193_b6789b85ac_b.jpg"],
             "time": "2h 02m 18s"
         },
         {
-            "name": "Crosul de noapte spring",
+            "name": "Crosul de noapte - Spring",
             "year": "2016",
             "month": "Apr",
             "terrain": "road",
             "distance": "10km",
             "cover": "cover.jpg",
             "folder": "2016 - Crosul de noapte - spring",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4299/35220597573_6eb994371c_b.jpg", "https://c1.staticflickr.com/5/4323/35641443090_9240999dd4_b.jpg", "https://c1.staticflickr.com/5/4330/35220588913_895132976f.jpg",
+                "https://c1.staticflickr.com/5/4298/35191286104_eae23e722f_b.jpg"],
             "time": ""
         },
         {
@@ -87,7 +97,13 @@
             "distance": "21km",
             "cover": "cover.jpg",
             "folder": "2016 - Apuseni Semi",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4301/35859928362_c0a23152c9_b.jpg", "https://c1.staticflickr.com/5/4327/35220734353_14e2e6d03d_b.jpg", "https://c1.staticflickr.com/5/4303/35191366384_6f008a3af0_b.jpg",
+                "https://c1.staticflickr.com/5/4302/36031098285_475b17102f_b.jpg", "https://c1.staticflickr.com/5/4328/35191356384_8ae0b4b627_b.jpg", "https://c1.staticflickr.com/5/4303/35220712723_ba4f83d5dc_b.jpg",
+                "https://c1.staticflickr.com/5/4330/35220708983_00279a44a5_b.jpg", "https://c1.staticflickr.com/5/4324/35220704473_7ed88b3398_b.jpg", "https://c1.staticflickr.com/5/4316/35220700363_3c263aff10_b.jpg",
+                "https://c1.staticflickr.com/5/4295/35989340626_7ea9a498e6_b.jpg", "https://c1.staticflickr.com/5/4310/35859923402_e4c2bed770_b.jpg", "https://c1.staticflickr.com/5/4306/35989335726_cc98546976_b.jpg",
+                "https://c1.staticflickr.com/5/4309/35859919092_1c4c3a826e_b.jpg", "https://c1.staticflickr.com/5/4296/35989327816_265e53c316_b.jpg", "https://c1.staticflickr.com/5/4328/35191387724_71e0308c9c_b.jpg",
+                "https://c1.staticflickr.com/5/4321/35859908842_8dd91692bb_b.jpg", "https://c1.staticflickr.com/5/4325/35859687902_3443eae470_b.jpg", "https://c1.staticflickr.com/5/4310/35220743303_2cb5697cd1_b.jpg",
+                "https://c1.staticflickr.com/5/4329/35859899552_8196dbe941_b.jpg", "https://c1.staticflickr.com/5/4327/36031109345_c88a16d648_b.jpg", "https://c1.staticflickr.com/5/4324/35191197824_8a7cdfefd8_b.jpg"],
             "time": "3h 09m 15s"
         },
         {
@@ -98,7 +114,10 @@
             "distance": "8km",
             "cover": "cover.jpg",
             "folder": "2016 - Ascotid Cros",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4328/35191186154_5dc8f8c25a_b.jpg", "https://c1.staticflickr.com/5/4304/35641308430_a536469310_b.jpg", "https://c1.staticflickr.com/5/4329/35191186894_c6ec55dcbc_b.jpg",
+                "https://c1.staticflickr.com/5/4296/35641307780_f21f4f1ef5_b.jpg", "https://c1.staticflickr.com/5/4291/35191187634_5f8cdbff75_b.jpg", "https://c1.staticflickr.com/5/4296/35191188234_080faa5f03_b.jpg",
+                "https://c1.staticflickr.com/5/4319/35191184744_eba6cb6313_b.jpg", "https://c1.staticflickr.com/5/4302/35641303090_e832b503ee_b.jpg", "https://c1.staticflickr.com/5/4320/35641452970_c7bfddba73_b.jpg",
+                "https://c1.staticflickr.com/5/4325/35641455660_7188b29012_b.jpg"],
             "time": ""
         },
         {
@@ -109,7 +128,8 @@
             "distance": "10km",
             "cover": "cover.jpg",
             "folder": "2016 - Crosul de noapte - autumn",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4320/35641300890_bef442c63c_b.jpg", "https://c1.staticflickr.com/5/4323/35641300550_3b8c890bc0_b.jpg", "https://c1.staticflickr.com/5/4324/35641449470_c786913986_b.jpg",
+                "https://c1.staticflickr.com/5/4306/35641447470_710cc15884_b.jpg", "https://c1.staticflickr.com/5/4324/35641445260_89b064a473_b.jpg"],
             "time": ""
         },
         {
@@ -120,7 +140,9 @@
             "distance": "7km",
             "cover": "cover.jpg",
             "folder": "2017 - Faget Winter Race Cros",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4308/35191216124_61b8209837_b.jpg", "https://c1.staticflickr.com/5/4301/35191523744_bf33222331_b.jpg", "https://c1.staticflickr.com/5/4296/35641645080_a036971be9_b.jpg",
+                "https://c1.staticflickr.com/5/4292/35191519924_fd2645c0ab_b.jpg", "https://c1.staticflickr.com/5/4316/35641634620_1fc7dd8905_b.jpg", "https://c1.staticflickr.com/5/4291/35191513694_c32b5bf87b_b.jpg",
+                "https://c1.staticflickr.com/5/4293/36031192225_53c8ebe56d_b.jpg", "https://c1.staticflickr.com/5/4307/35220853973_5316150ebc_b.jpg"],
             "time": "46m 30s"
         },
         {
@@ -131,7 +153,9 @@
             "distance": "14km",
             "cover": "cover.jpg",
             "folder": "2017 - Faget Winter Tour Cros",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4313/35220845953_931a8a1b17_b.jpg", "https://c1.staticflickr.com/5/4324/36031187115_ed4468408b_b.jpg", "https://c1.staticflickr.com/5/4312/35220473953_460780e3e1_b.jpg",
+                "https://c1.staticflickr.com/5/4319/35220839393_d75c67ba5e_b.jpg", "https://c1.staticflickr.com/5/4330/36031182935_765dcde2b2_b.jpg", "https://c1.staticflickr.com/5/4308/35989435286_eb6965c2a8_b.jpg",
+                "https://c1.staticflickr.com/5/4292/35989429036_15672014a7_b.jpg"],
             "time": "1h 32m 50s"
         },
         {
@@ -142,7 +166,15 @@
             "distance": "",
             "cover": "cover.jpg",
             "folder": "2017 - Antrenament",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4297/35641422600_a6dc22f715_b.jpg", "https://c1.staticflickr.com/5/4306/35989186316_3e54244387_b.jpg", "https://c1.staticflickr.com/5/4309/35641298240_fae8090470_b.jpg",
+                "https://c1.staticflickr.com/5/4312/35191276194_3d699fcb2f_b.jpg", "https://c1.staticflickr.com/5/4301/35641299880_0ed4b93c35_b.jpg", "https://c1.staticflickr.com/5/4325/35897153561_0551f39a5d_b.jpg",
+                "https://c1.staticflickr.com/5/4303/35191178804_6dc86c6df3_b.jpg", "https://c1.staticflickr.com/5/4318/35641295080_a9bc8a9ab3_b.jpg", "https://c1.staticflickr.com/5/4319/35989177396_b8eb24d96f_b.jpg",
+                "https://c1.staticflickr.com/5/4292/35641411800_c090518c90_b.jpg", "https://c1.staticflickr.com/5/4300/35641405910_aaa7395cf7_b.jpg", "https://c1.staticflickr.com/5/4321/35989171986_d777ae7d32_b.jpg",
+                "https://c1.staticflickr.com/5/4312/35220562933_b235524ce9_b.jpg", "https://c1.staticflickr.com/5/4316/35641396570_8e1cfd3c78_b.jpg", "https://c1.staticflickr.com/5/4316/35220554993_464a5fb513_b.jpg",
+                "https://c1.staticflickr.com/5/4324/35897124911_ed523f3911_b.jpg", "https://c1.staticflickr.com/5/4295/35220450203_dabebd39e5_b.jpg", "https://c1.staticflickr.com/5/4325/35220549763_fd8bafb9b6_b.jpg",
+                "https://c1.staticflickr.com/5/4296/35897119761_f5a0159d14_b.jpg", "https://c1.staticflickr.com/5/4310/35897116751_ff19e71147_b.jpg", "https://c1.staticflickr.com/5/4310/35897112871_9ef8eeb0d6_b.jpg",
+                "https://c1.staticflickr.com/5/4320/35641293510_f6162ea39e_b.jpg", "https://c1.staticflickr.com/5/4295/35989092156_4dfd12b30a_b.jpg", "https://c1.staticflickr.com/5/4301/36030997765_d49b819478_b.jpg",
+                "https://c1.staticflickr.com/5/4320/35897108131_bdcf579497_b.jpg"],
             "time": ""
         },
         {
@@ -153,7 +185,14 @@
             "distance": "42km",
             "cover": "cover.jpg",
             "folder": "2017 - Rome Marathon",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4303/35989409606_192c7f11a4_b.jpg", "https://c1.staticflickr.com/5/4318/35641585210_5c9c87f7fa_b.jpg", "https://c1.staticflickr.com/5/4298/35859696862_4e6057b66d_b.jpg",
+                "https://c1.staticflickr.com/5/4291/35859696062_1ee4e2c0a0_b.jpg", "https://c1.staticflickr.com/5/4307/35859696342_c80b98c16e_b.jpg", "https://c1.staticflickr.com/5/4313/35859695672_0ca639aff1_b.jpg",
+                "https://c1.staticflickr.com/5/4301/35641579640_ffc3d2d11c_b.jpg", "https://c1.staticflickr.com/5/4307/35859695312_92b9ae6661_b.jpg", "https://c1.staticflickr.com/5/4323/35641576990_2dda4f50ed_b.jpg",
+                "https://c1.staticflickr.com/5/4312/35220470443_a451d15e73_b.jpg", "https://c1.staticflickr.com/5/4297/35220469183_6c446fcd31_b.jpg", "https://c1.staticflickr.com/5/4322/35191209684_04c8620cf5_b.jpg",
+                "https://c1.staticflickr.com/5/4311/35859699032_302bdd25ea_b.jpg", "https://c1.staticflickr.com/5/4294/35220823243_f4f45f4289_b.jpg", "https://c1.staticflickr.com/5/4305/35989404756_de9e2a3f4c_b.jpg",
+                "https://c1.staticflickr.com/5/4302/35220819363_b66e0f970d_b.jpg", "https://c1.staticflickr.com/5/4295/35989398586_0f6c618f59_b.jpg", "https://c1.staticflickr.com/5/4311/35220811513_f2c8b58858_b.jpg",
+                "https://c1.staticflickr.com/5/4311/35191464844_248bf13dfa_b.jpg", "https://c1.staticflickr.com/5/4320/35641582270_430f71c405_b.jpg", "https://c1.staticflickr.com/5/4291/35191207164_5efe49f053_b.jpg",
+                "https://c1.staticflickr.com/5/4301/35859697272_6d9cdae40a_b.jpg"],
             "time": "4h 33m 23s"
         },
         {
@@ -164,7 +203,9 @@
             "distance": "21km",
             "cover": "cover.jpg",
             "folder": "2017 - Wizz Cluj Semi",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4297/35641574380_c7c9a39414_b.jpg", "https://c1.staticflickr.com/5/4321/35859694442_b8671d53c2_b.jpg", "https://c1.staticflickr.com/5/4292/35859694112_14bf3c1164_b.jpg",
+                "https://c1.staticflickr.com/5/4330/35859693872_0dd603636a_b.jpg", "https://c1.staticflickr.com/5/4296/35191203814_39b501176a_b.jpg", "https://c1.staticflickr.com/5/4325/35641571330_b18f147a38_b.jpg",
+                "https://c1.staticflickr.com/5/4320/35220790603_68874fd13b_b.jpg", "https://c1.staticflickr.com/5/4323/35641566450_7c18f950f3_b.jpg", "https://c1.staticflickr.com/5/4326/35859957952_5e6889107f_b.jpg"],
             "time": "1h 55m 02s"
         },
         {
@@ -175,18 +216,20 @@
             "distance": "21km",
             "cover": "cover.jpg",
             "folder": "2017 - Mures Semi",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4311/35220472533_e6f7d2b476_b.jpg", "https://c1.staticflickr.com/5/4326/35989423056_46f21133cf_b.jpg", "https://c1.staticflickr.com/5/4300/35989417656_57ba41815b_b.jpg",
+                "https://c1.staticflickr.com/5/4298/35989413456_c009a5884c_b.jpg", "https://c1.staticflickr.com/5/4314/35989411066_18bfabe52a_b.jpg", "https://c1.staticflickr.com/5/4296/35191212484_346dc93a54_b.jpg",
+                "https://c1.staticflickr.com/5/4297/35191212114_56245de6ba_b.jpg"],
             "time": "3h 00m 45s"
         },
         {
-            "name": "Crosul de noapte spring",
+            "name": "Crosul de noapte - Spring",
             "year": "2017",
             "month": "May",
             "terrain": "road",
             "distance": "10km",
             "cover": "cover.jpg",
             "folder": "2017 - Crosul de noapte - spring",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4311/35897016811_a7cf059054_b.jpg", "https://c1.staticflickr.com/5/4318/36030929585_7ef064c673_b.jpg", "https://c1.staticflickr.com/5/4302/36030927955_6f99b8d204_b.jpg"],
             "time": "51m 52s"
         },
         {
@@ -197,7 +240,10 @@
             "distance": "8km",
             "cover": "cover.jpg",
             "folder": "2017 - Ethno Run Cros",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4301/35860058892_a5470b8bb9_b.jpg", "https://c1.staticflickr.com/5/4319/35897064041_da26b6c084_b.jpg", "https://c1.staticflickr.com/5/4300/35860047282_993541ff8b_b.jpg",
+                "https://c1.staticflickr.com/5/4307/35897379851_ddef466903_b.jpg", "https://c1.staticflickr.com/5/4307/35897373831_61d843fd6b_b.jpg", "https://c1.staticflickr.com/5/4323/35191222444_63337d080f_b.jpg",
+                "https://c1.staticflickr.com/5/4314/35191220014_78b2afa253_b.jpg", "https://c1.staticflickr.com/5/4322/35220475783_94b48476d6_b.jpg", "https://c1.staticflickr.com/5/4309/35897366831_b7d8972bdd_b.jpg",
+                "https://c1.staticflickr.com/5/4326/35897390111_a166a1e2c1_b.jpg"],
             "time": "41m 03s"
         },
         {
@@ -208,8 +254,23 @@
             "distance": "21km",
             "cover": "cover.jpg",
             "folder": "2017 - Apuseni Semi",
-            "images": [],
+            "images": ["https://c1.staticflickr.com/5/4327/35641353130_5038081775_b.jpg", "https://c1.staticflickr.com/5/4308/36030995145_7e5991fe74_b.jpg", "https://c1.staticflickr.com/5/4295/35641350250_3150fa8158_b.jpg",
+                "https://c1.staticflickr.com/5/4311/35897082611_6cbe8d4cd0_b.jpg", "https://c1.staticflickr.com/5/4321/35897021141_8d6357cf53_b.jpg", "https://c1.staticflickr.com/5/4301/35897075771_3dc03bc5ff_b.jpg",
+                "https://c1.staticflickr.com/5/4316/35859660802_be761c6243_b.jpg", "https://c1.staticflickr.com/5/4309/35220485003_32ddabbca9_b.jpg", "https://c1.staticflickr.com/5/4294/35641356370_374872dec4_b.jpg",
+                "https://c1.staticflickr.com/5/4321/35989090956_3730020d01_b.jpg", "https://c1.staticflickr.com/5/4315/35989135186_0a791beb66_b.jpg", "https://c1.staticflickr.com/5/4330/36030989545_95aceb79ea_b.jpg",
+                "https://c1.staticflickr.com/5/4317/35989139746_0b4c3a0020_b.jpg", "https://c1.staticflickr.com/5/4305/35897089501_b84ff93213_b.jpg"],
             "time": "2h 41m 19s"
+        },
+        {
+            "name": "Hoia - Cross",
+            "year": "2017",
+            "month": "Jul",
+            "terrain": "trail",
+            "distance": "10km",
+            "cover": "cover.jpg",
+            "folder": "2017 - Hoia Cros",
+            "images": ["https://c1.staticflickr.com/5/4312/35989834836_e0b0214eea_b.jpg", "https://c1.staticflickr.com/5/4323/35897658971_ecbc890088_b.jpg", "https://c1.staticflickr.com/5/4314/35989835756_85c7beb184_b.jpg"],
+            "time": "1h 10m 00s"
         }
     ]
 }
