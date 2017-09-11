@@ -3,17 +3,6 @@
         <ul class="next__items-container">
             <li class="next__item">
                 <div class="next__date">
-                    28 August 2017
-                </div>
-                <div class="next__name">
-                    Via Maria Theresia
-                </div>
-                <div class="next__distance">
-                    21km
-                </div>
-            </li>
-            <li class="next__item">
-                <div class="next__date">
                     1 October 2017
                 </div>
                 <div class="next__name">
@@ -31,7 +20,7 @@
                     Bucharest Marathon
                 </div>
                 <div class="next__distance">
-                    42km
+                    21km
                 </div>
             </li>
         </ul>
