@@ -271,6 +271,19 @@
             "folder": "2017 - Hoia Cros",
             "images": ["https://c1.staticflickr.com/5/4312/35989834836_e0b0214eea_b.jpg", "https://c1.staticflickr.com/5/4323/35897658971_ecbc890088_b.jpg", "https://c1.staticflickr.com/5/4314/35989835756_85c7beb184_b.jpg"],
             "time": "1h 10m 00s"
+        },
+        {
+            "name": "Ascotid - Half Marathon",
+            "year": "2017",
+            "month": "Oct",
+            "terrain": "trail",
+            "distance": "21km",
+            "cover": "cover.jpg",
+            "folder": "2017 - Ascotid Semi",
+            "images": ["https://c1.staticflickr.com/5/4499/37610271902_985243b7cb_b.jpg", "https://c1.staticflickr.com/5/4459/36971515293_cc07b1ac59_b.jpg", "https://c1.staticflickr.com/5/4452/37610271022_5ebe82e585_b.jpg",
+                "https://c1.staticflickr.com/5/4451/36971518593_781a964b1b_b.jpg", "https://c1.staticflickr.com/5/4493/36971513883_128b29d3b2_b.jpg", "https://c1.staticflickr.com/5/4485/37610270142_f7d4306c73_b.jpg",
+                "https://c1.staticflickr.com/5/4492/36971513373_9041ee7ec0_b.jpg", "https://c1.staticflickr.com/5/4466/37610269922_d891a31958_b.jpg", "https://c1.staticflickr.com/5/4483/37610269712_3492aa3889_b.jpg"],
+            "time": "2h 17m 00s"
         }
     ]
 }

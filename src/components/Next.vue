@@ -3,21 +3,10 @@
         <ul class="next__items-container">
             <li class="next__item">
                 <div class="next__date">
-                    1 October 2017
+                    15 April 2017
                 </div>
                 <div class="next__name">
-                    Ascotid Trail Race
-                </div>
-                <div class="next__distance">
-                    21km
-                </div>
-            </li>
-            <li class="next__item">
-                <div class="next__date">
-                    15 October 2017
-                </div>
-                <div class="next__name">
-                    Bucharest Marathon
+                    Cluj Half Marathon
                 </div>
                 <div class="next__distance">
                     21km
