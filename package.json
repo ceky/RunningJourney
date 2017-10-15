@@ -10,9 +10,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "lozad": "^1.0.8",
     "vue": "^2.3.3",
-    "vue-router": "^2.3.1",
-    "vue-resource": "^1.3.3"
+    "vue-resource": "^1.3.3",
+    "vue-router": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

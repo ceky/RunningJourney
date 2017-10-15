@@ -25,3 +25,13 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 # deploy to surge.sh
 
 First run npm run build and then write ```surge``` and add the project path to /dist
+
+
+Using magnific popup for opening the images in a gallery
+http://dimsemenov.com/plugins/magnific-popup/
+
+Using lozad to load only the cover images of the albums that appear in the viewport
+https://github.com/ApoorvSaxena/lozad.js
+
+Using scrollReveal to animate the elements on scroll
+https://github.com/jlmakes/scrollreveal

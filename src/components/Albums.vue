@@ -11,7 +11,7 @@
         </div>
         <ul class="albums__items-container">
             <li v-for="item in filteredAlbumItems" class="albums__item" v-on:click="onClickAlbum(item.images)">
-                <img class="album__cover" v-bind:src="'./static/albums/' + item.folder + '/' + item.cover" />
+                <img class="album__cover lozad" v-bind:data-src="'./static/albums/' + item.folder + '/' + item.cover"/>
                 <div class="album__data-container">
                     <div class="album__name">
                         {{item.name}}
@@ -27,6 +27,7 @@
 
 <script>
     import AlbumsFilter from './AlbumsFilter';
+    import lozad from 'lozad'
 
     export default {
         components: {
@@ -36,6 +37,14 @@
             this.$http.get('./static/albums.json')
                 .then((response) => {
                     this.albums = response.data.past.reverse();
+
+                    setTimeout(function(){
+                        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+                        observer.observe();
+
+                        window.sr = ScrollReveal();
+                        sr.reveal('.albums__item', { duration: 1000, scale: 0.5 });
+                    }, 10);
                 })
         },
         data () {
