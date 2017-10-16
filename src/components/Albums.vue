@@ -39,11 +39,11 @@
                     this.albums = response.data.past.reverse();
 
                     setTimeout(function(){
-                        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-                        observer.observe();
+                        this.observer = lozad(); // lazy loads elements with default selector as '.lozad'
+                        this.observer.observe();
 
-                        window.sr = ScrollReveal();
-                        sr.reveal('.albums__item', { duration: 1000, scale: 0.5 });
+                        // window.sr = ScrollReveal();
+                        // sr.reveal('.albums__item', { duration: 700, scale: 0.5 });
                     }, 10);
                 })
         },
@@ -53,7 +53,8 @@
                 searchText: '',
                 distanceFilter: 'all',
                 yearFilter: 'all',
-                terrainFilter: 'all'
+                terrainFilter: 'all',
+                observer: {}
             }
         },
         methods: {
@@ -87,6 +88,14 @@
         },
         computed: {
             filteredAlbumItems: function() {
+                setTimeout(function(){
+                    $('.album__cover').each(function() {
+                        // had to mark the album cover image as not being loaded after a filter, otherwise it is not refreshed
+                        $(this).attr('data-loaded', false);
+                    });
+                    this.observer.observe();
+                }, 10);
+
                 return this.albums.filter((item) => {
                     return ((item.name.toLowerCase().indexOf(this.searchText.toLowerCase()) > -1) &&
                             (item.distance === this.distanceFilter || this.distanceFilter === 'all') &&
