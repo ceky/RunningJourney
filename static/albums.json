@@ -284,6 +284,17 @@
                 "https://c1.staticflickr.com/5/4451/36971518593_781a964b1b_b.jpg", "https://c1.staticflickr.com/5/4493/36971513883_128b29d3b2_b.jpg", "https://c1.staticflickr.com/5/4485/37610270142_f7d4306c73_b.jpg",
                 "https://c1.staticflickr.com/5/4492/36971513373_9041ee7ec0_b.jpg", "https://c1.staticflickr.com/5/4466/37610269922_d891a31958_b.jpg", "https://c1.staticflickr.com/5/4483/37610269712_3492aa3889_b.jpg"],
             "time": "2h 17m 00s"
+        },
+        {
+            "name": "Faget Tour - Half Marathon",
+            "year": "2017",
+            "month": "Oct",
+            "terrain": "trail",
+            "distance": "21km",
+            "cover": "cover.jpg",
+            "folder": "2017 - Faget Tour",
+            "images": ["https://c1.staticflickr.com/5/4476/37797154172_2d42f0051d_b.jpg", "https://c1.staticflickr.com/5/4485/37797146002_40dc8fce67_b.jpg", "https://c1.staticflickr.com/5/4513/37797146672_2762ca8c09_b.jpg"],
+            "time": "2h 18m 00s"
         }
     ]
 }

@@ -47,12 +47,6 @@ export default {
     methods: {
         onClickFilter: function (event) {
             this.isFilterOpen = !this.isFilterOpen;
-            if (this.isFilterOpen) {
-                setTimeout(() => {
-                    // TODO might wanna remove this if the keyboard shows up on mobile
-                    document.querySelector('.filter__search').focus();
-                }, 100);
-            }
         },
         onClickDistanceFilter: function(filter) {
             this.activeDistanceFilter = filter;
