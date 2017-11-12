@@ -293,8 +293,34 @@
             "distance": "21km",
             "cover": "cover.jpg",
             "folder": "2017 - Faget Tour",
-            "images": ["https://c1.staticflickr.com/5/4476/37797154172_2d42f0051d_b.jpg", "https://c1.staticflickr.com/5/4485/37797146002_40dc8fce67_b.jpg", "https://c1.staticflickr.com/5/4513/37797146672_2762ca8c09_b.jpg"],
+            "images": ["https://c1.staticflickr.com/5/4476/37797154172_2d42f0051d_b.jpg", "https://c1.staticflickr.com/5/4534/26594690869_5f04c9ded7_b.jpg", "https://c1.staticflickr.com/5/4576/38370264391_69548f1134_b.jpg", 
+                "https://c1.staticflickr.com/5/4551/38339668662_c9692829b2_b.jpg", "https://c1.staticflickr.com/5/4518/26594690109_aaf5c6aaab_b.jpg", "https://c1.staticflickr.com/5/4571/26594691289_baf32343eb_b.jpg", 
+                "https://c1.staticflickr.com/5/4579/38339669182_c712c2b5c5_b.jpg", "https://c1.staticflickr.com/5/4485/37797146002_40dc8fce67_b.jpg", "https://c1.staticflickr.com/5/4513/37797146672_2762ca8c09_b.jpg"],
             "time": "2h 18m 00s"
+        },
+        {
+            "name": "Crosul de noapte - Autumn",
+            "year": "2017",
+            "month": "Nov",
+            "terrain": "road",
+            "distance": "10km",
+            "cover": "cover.jpg",
+            "folder": "2017 - Crosul de noapte - autumn",
+            "images": ["https://c1.staticflickr.com/5/4579/24500016718_bc62e7c657_b.jpg", "https://c1.staticflickr.com/5/4530/38370688971_42b5f75727_b.jpg"],
+            "time": "0h 47m 19s"
+        }
+        {
+            "name": "4 run 4 fun",
+            "year": "2017",
+            "month": "Nov",
+            "terrain": "trail",
+            "distance": "9km",
+            "cover": "cover.jpg",
+            "folder": "2017 - 4 run 4 fun",
+            "images": ["https://c1.staticflickr.com/5/4520/38370534801_36063b53d9_b.jpg", "https://c1.staticflickr.com/5/4527/38370533811_420537904a_b.jpg", "https://c1.staticflickr.com/5/4557/38315664776_f8fe0fcc81_b.jpg",
+                "https://c1.staticflickr.com/5/4583/38315664346_147874b69d_b.jpg", "https://c1.staticflickr.com/5/4586/38339981702_32a2c5aeaa_b.jpg", "https://c1.staticflickr.com/5/4557/37656372024_fd98b05d53_b.jpg", 
+                "https://c1.staticflickr.com/5/4566/38339980782_cf4bd7c4ef_b.jpg"],
+            "time": "0h 57m 00s"
         }
     ]
 }

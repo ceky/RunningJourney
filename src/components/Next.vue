@@ -6,10 +6,10 @@
                     15 April 2017
                 </div>
                 <div class="next__name">
-                    Cluj Half Marathon
+                    Cluj Marathon
                 </div>
                 <div class="next__distance">
-                    21km
+                    42km
                 </div>
             </li>
         </ul>
