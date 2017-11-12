@@ -7,7 +7,7 @@
                         10km
                     </div>
                     <div class="best__time">
-                        51m 52s
+                        47m 19s
                     </div>
                     <div class="best__competition">
                         Crosul de noapte 2017
