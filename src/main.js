@@ -5,7 +5,6 @@ import vueResource from 'vue-resource'
 import VueRouter from 'vue-router'
 import App from './components/App'
 import Albums from './components/Albums'
-import Next from './components/Next'
 import Best from './components/Best'
 
 Vue.use(vueResource);
@@ -18,10 +17,6 @@ const router = new VueRouter({
         {
             path: '/',
             component: Albums
-        },
-        {
-            path: '/next',
-            component: Next
         },
         {
             path: '/best',

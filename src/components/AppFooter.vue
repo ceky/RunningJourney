@@ -1,5 +1,5 @@
 <template>
-    <div class="footer__container">Ceky - 2017</div>
+    <div class="footer__container">Ceky - 2018</div>
 </template>
 
 <script>

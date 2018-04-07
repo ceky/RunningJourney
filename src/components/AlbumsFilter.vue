@@ -19,6 +19,7 @@
                     <a v-bind:class="{ active: activeYearFilter === '2015' }" v-on:click="onClickYearFilter('2015')" class="button">2015</a>
                     <a v-bind:class="{ active: activeYearFilter === '2016' }" v-on:click="onClickYearFilter('2016')" class="button">2016</a>
                     <a v-bind:class="{ active: activeYearFilter === '2017' }" v-on:click="onClickYearFilter('2017')" class="button">2017</a>
+                    <a v-bind:class="{ active: activeYearFilter === '2018' }" v-on:click="onClickYearFilter('2018')" class="button">2018</a>
                 </div>
             </div>
             <div class="filter__option-container">
