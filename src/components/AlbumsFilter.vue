@@ -8,7 +8,7 @@
                 Distance:
                 <div class="expanded button-group">
                     <a v-bind:class="{ active: activeDistanceFilter === 'all' }" v-on:click="onClickDistanceFilter('all')" class="button">All</a>
-                    <a v-bind:class="{ active: activeDistanceFilter === '21km' }" v-on:click="onClickDistanceFilter('21km')" class="button">Half-Marathon</a>
+                    <a v-bind:class="{ active: activeDistanceFilter === '21km' }" v-on:click="onClickDistanceFilter('21km')" class="button">21 km</a>
                     <a v-bind:class="{ active: activeDistanceFilter === '42km' }" v-on:click="onClickDistanceFilter('42km')" class="button">Marathon</a>
                 </div>
             </div>
