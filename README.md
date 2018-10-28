@@ -20,13 +20,13 @@ npm run build --report
 
 http://localhost:8080/#/
 
-http://ceky-running.surge.sh
-
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 # deploy to surge.sh
 
 First run npm run build and then write ```surge``` and add the project path to /dist
+
+http://ceky-running.surge.sh
 
 
 Using magnific popup for opening the images in a gallery
