@@ -35,5 +35,4 @@ http://dimsemenov.com/plugins/magnific-popup/
 Using lozad to load only the cover images of the albums that appear in the viewport
 https://github.com/ApoorvSaxena/lozad.js
 
-Using scrollReveal to animate the elements on scroll
-https://github.com/jlmakes/scrollreveal
+Using animate.css to animate the album elements and the logo

@@ -10,7 +10,7 @@
             Total: {{filteredAlbumItems.length}}
         </div>
         <ul class="albums__items-container">
-            <li v-for="item in filteredAlbumItems" class="albums__item" v-on:click="onClickAlbum(item.images)">
+            <li v-for="item in filteredAlbumItems" class="albums__item flipInX animated" v-on:click="onClickAlbum(item.images)">
                 <img class="album__cover lozad" v-bind:data-src="'./static/albums/' + item.folder + '/' + item.cover"/>
                 <div class="album__data-container">
                     <div class="album__name">
@@ -135,6 +135,7 @@
     margin: 10px;
     border-radius: 3px;
     box-shadow: 0.5rem 0.7rem 2rem rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
 }
 
 .albums__item:hover {

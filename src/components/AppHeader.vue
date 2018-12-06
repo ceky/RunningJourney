@@ -1,7 +1,7 @@
 <template>
     <header class="header__container">
         <div class="header__title">
-            <router-link to="/" class="header__logo"><span style="font-size: 50px;">RUNNING</span> <span style="top: -31px; position: relative; color: mediumvioletred">ADVENTURES</span></router-link>
+            <router-link to="/" class="header__logo bounceIn animated" ><span style="font-size: 50px;">RUNNING</span> <span style="top: -31px; position: relative; color: mediumvioletred">ADVENTURES</span></router-link>
         </div>
         <ul class="header__menu">
             <li class="header__menu-item">
