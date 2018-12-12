@@ -43,6 +43,7 @@ ul .router-link-exact-active {
     justify-content: center;
     padding: 0;
     margin: 0;
+    z-index: 10;
 }
 
 .header__menu-item {
