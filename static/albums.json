@@ -499,6 +499,17 @@
                 "https://c1.staticflickr.com/2/1957/45528458372_7da6dc46ed_b.jpg", "https://c1.staticflickr.com/2/1904/44854083954_4349078381_b.jpg", "https://c1.staticflickr.com/2/1955/45528458062_3929d2f17f_b.jpg",
                 "https://c1.staticflickr.com/2/1937/31706588478_a97c400259_b.jpg"],
             "time": "1h 17m 07s"
+        },
+        {
+            "name": "Faget Winter Race - Half",
+            "year": "2019",
+            "month": "Jan",
+            "terrain": "trail",
+            "distance": "21km",
+            "cover": "cover.jpg",
+            "folder": "2019 - Faget Winter Race Semi",
+            "images": ["https://c1.staticflickr.com/8/7862/33055723838_daf5a9e2b1_b.jpg", "https://c1.staticflickr.com/8/7837/33055723528_959808d736_b.jpg", "https://c1.staticflickr.com/5/4838/46878918402_e1d1f4a97b_b.jpg"],
+            "time": "3h 15m 00s"
         }
     ]
 }
